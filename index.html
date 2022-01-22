@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>ХоббиАрт</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
+
+<body>
+
+
+  <header class="header">
+  <div class="header__top">
+    <div class="container">
+      <ul class="header__contacts">
+        <li class="header__contact header__contact--phone">+7 (924) 765 28 20</li>
+        <li class="header__contact header__contact--address">г. Якутск, ул. Петра Алексеева, д. 6, ТЦ “Олонхо”</li>
+        <li class="header__contact header__contact--time">Ежедневно с 10:00 до 19:00</li>
+      </ul>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="container">
+      <div class="header__wrapper">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#">Каталог</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Оплата и доставка</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Бонусная программа</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">О компании</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <a class="logo" href="#">
+          <img class="logo__img" src="/images/logo.png" alt="Логотип"></a>
+        <form class="form" action="#">
+          <label class="form__btn form__label">
+            <input class="input-btn" type="search" placeholder="Поиск товара" required>
+
+          </label>
+          <button class="form__btn input-btn input-btn--search" type="submit"></button>
+          <button class="form__btn input-btn input-btn--user" type="submit">Войти</button>
+          <button class="form__btn input-btn input-btn--like" type="submit">Избранное<span>2</span></button>
+          <button class="form__btn input-btn input-btn--cart" type="submit">Корзина<span>1</span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+  <main class="main">
+    <section class="main-slider">
+  <div class="container">
+    <div class="main-slider__wrapper">
+      <div class="main-slider__inner">
+        <div class="main-slider__item">
+          <div class="main-slider__img-box">
+            <img class="main-slider__img" src="/images/bg-img.png" alt="Картинка пряжи">
+          </div>
+          <div class="main-slider__content">
+            <h1 class="main-slider__title title">Пряжа Macrametr</h1>
+            <p class="main-slider__text">Повседневная практика показывает, что укрепление и развитие внутренней
+              структуры обеспечивает широкому кругу (специалистов) участие в формировании форм воздействия. </p>
+            <a href="#" class="main-slider__link btn">В каталог</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="item__1"></div>
+  </div>
+
+  <div class="img-box">
+    <img class="img" src="/images/svg/knite.svg" alt="">
+  </div>
+
+
+</section>
+    <section>
+  <div class="container">
+    <ul class="items">
+      <li class="items__item">
+        <article class="card">
+          <!-- <div class="card__img"> -->
+          <img src="images/bg-img.png" alt="">
+          <!-- </div> -->
+          <div class="card__block">
+            <div class="card__img">
+              <img src="images/bg-img.png" alt="">
+            </div>
+
+            <p class="card__text">outdoor Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laudantium in voluptatem? Nesciunt distinctio esse non suscipit ducimus aliquam accusamus omnis vitae
+              quas eum. Provident molestias temporibus dicta autem facilis.</p>
+          </div>
+          <div class="card__block">
+            <!-- <div class="card__img">
+              <img src="images/sircle-text.png" alt="">
+            </div> -->
+            <p class="card__text-2">outdoor Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laudantium in voluptatem? Nesciunt distinctio esse non suscipit ducimus aliquam accusamus omnis vitae
+              quas eum. Provident molestias temporibus dicta autem facilis.</p>
+
+          </div>
+          <button>5555</button>
+        </article>
+      </li>
+      <li class="items__item">
+        <article class="card">
+          <div class="card__img">
+            <img src="images/bg-img.png" alt="">
+          </div>
+          <div class="card__block">
+
+
+            <p class="card__text">outdoor Lorem </p>
+
+          </div>
+          <div class="card__block">
+            <!-- <div class="card__img">
+              <img src="images/sircle-text.png" alt="">
+            </div> -->
+            <p class="card__text-2">outdoor Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusamus
+              dolorem repellat natus quidem aliquam voluptates quam! Ea iure unde illo? Facere rem sed culpa quas illo
+              ut dolorum tempore!</p>
+          </div>
+          <button>5555</button>
+        </article>
+      </li>
+    </ul>
+  </div>
+
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</section>
+
+  </main>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
